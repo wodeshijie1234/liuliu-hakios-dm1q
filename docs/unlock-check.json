@@ -40,8 +40,7 @@
     "unlock",
     "erase",
     "flash",
-    "hardware execution of custom EFI",
-    "GitHub publication"
+    "hardware execution of custom EFI"
   ],
   "current_device_mode": "ADB verified primary user 0 after Maintenance Mode exit; flash_locked=1, vbmeta=locked, other_locked=1, Knox=0. Temporary USB stay-awake restored to 0.",
   "exact_abl_audit": {
@@ -71,5 +70,7 @@
       "report": "docs/tgy-b8-comparison.json",
       "flashed": false
     }
-  ]
+  ],
+  "research_repository": "https://github.com/wodeshijie1234/liuliu-hakios-dm1q",
+  "publication_scope": "Research source and evidence only; no flashable image or hardware driver validation"
 }

@@ -30,7 +30,7 @@
     "custom UEFI execution",
     "XNU boot",
     "any HakiOS driver on dm1q",
-    "restore flash test",
-    "GitHub publication"
-  ]
+    "restore flash test"
+  ],
+  "publication_verification": "First 55 files fetched from public origin/main; names, Git blob hashes and file modes match local source commit 17775b8 exactly. Publication receipt updates synced separately."
 }

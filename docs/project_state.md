@@ -19,7 +19,7 @@
 | 上游配置 | 固定 HakiOS 提交，生成 dm1q/sm8550，全部 25 个驱动关闭，cpus=1 | upstream-lock.json、devices/dm1q/；检查通过不等于平台实现 |
 | UEFI 诊断程序 | AARCH64 EFI 编译、格式和哈希核验完成 | probe-build.json；未在手机执行 |
 | 启动预检 | 完整恢复材料已消除恢复文件缺项；仍拒绝推进 | preflight-with-recovery.json：DM1Q_BOOT_CHAIN_NOT_VALIDATED |
-| 开源 | 已创建公开仓库；研究资料与源码正在首次上传，无镜像发布 | README.md、THIRD_PARTY_NOTICES.md、Git 记录 |
+| 开源 | 55个研究源码/文档已公开；远端逐文件内容与权限位均匹配，无镜像发布 | README.md、THIRD_PARTY_NOTICES.md、Git 记录 |
 
 ## 存储与恢复材料
 
@@ -46,7 +46,7 @@ ZIP、五个 tar.md5、私有恢复 manifest、APK 和解析出的固件均在�
 1. 首要条件是适用于 SM-S9110、当前防回滚代际的可验证启动准入途径；现无可执行方案。再做长按、切维护模式、试最早 CHC B8 或港版 B8 都没有新依据。
 2. 准入解决后先验收 dm1q UEFI、只读诊断输出和返回原系统，再启动 XNU。不能以修改菜单或补丁字节代替镜像签名准入。
 3. 驱动按日志、中断/定时器、显示、输入、USB、存储等顺序逐项验收。短信与接码依赖蜂窝链路，当前完全没有可用性证据。
-4. 用户指定 wodeshijie1234，已通过其 Chrome 登录创建公开仓库 liuliu-hakios-dm1q；本地 origin 已设置。首次上传完成后以远端文件树与本地 Git tree 比较确认交付，不包含固件或设备标识。
+4. 用户指定 wodeshijie1234，已通过其 Chrome 登录创建公开仓库 liuliu-hakios-dm1q；本地 origin 已设置。首次上传55个文件后已拉取远端，文件名、Git blob与权限位全部相同，不包含固件或设备标识；本条记录与发布回执随后同步。公开的是研究成果，实机移植仍阻塞。
 
 复现见 [原厂设备树复现.md](原厂设备树复现.md)。此前逐步探索记录保留在 [历史状态](history/2026-11-06-state-before-stock-verification.md)，其中的“等待/下载中/空间不足”是历史状态，不再作为当前结论。
 
