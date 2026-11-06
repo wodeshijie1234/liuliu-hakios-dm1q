@@ -1,0 +1,4 @@
+# HakiOS defconfig for the Samsung Galaxy S23 SM-S9110 (dm1q): the common kernel, the sm8550 family's facts, and this device's own.
+#include common_defconfig
+#include sm8550.config
+#include dm1q.config
