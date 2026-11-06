@@ -1,0 +1,49 @@
+{
+  "source": "Samsung FUS, exact SM-S9110 CHC FZI1 BL",
+  "source_tar_sha256": "7e2279084532588d5c33169b0d45cf953d35547cc2c55f156afa3980f926d821",
+  "method": "UEFI volume/sections parsed, static strings searched; no patch or execution",
+  "modules": [
+    {
+      "bytes": 1200128,
+      "sha256": "9aad06fe8bb6a9d79f909242ff48eaac019d4e38225bfc803d75ec01b3c968ef",
+      "has_other_locked_literal": false,
+      "lock_signals": [
+        " Custom Binary(%a) Blocked By OEM Lock",
+        " Custom Binary(%a) Blocked By FRP Lock"
+      ]
+    },
+    {
+      "bytes": 1769472,
+      "sha256": "5943b3cb503dd53aec10aecb559911f31badc40df88636eb2ad5023a24cf0ac2",
+      "has_other_locked_literal": true,
+      "lock_signals": [
+        "Error getting device lock state.",
+        " Custom Binary(%a) Blocked By OEM Lock",
+        "Unable set the unlock value: %r",
+        "[OEM]LOCK:%d ",
+        "Unable set the unlock critical value: %r",
+        "Device is unlocked, Skipping boot verification",
+        " androidboot.other.locked=1",
+        " Custom Binary(%a) Blocked By FRP Lock"
+      ]
+    },
+    {
+      "bytes": 647168,
+      "sha256": "870de514e01c37b04b847f860203065841cbe556ab87d5be13316d20b9c05cbe",
+      "has_other_locked_literal": false,
+      "lock_signals": []
+    },
+    {
+      "bytes": 45056,
+      "sha256": "0190ea2f3ec9fcfb73c0f2f439b45afe2116c50895a023750bf6ed945ac120da",
+      "has_other_locked_literal": false,
+      "lock_signals": []
+    },
+    {
+      "bytes": 49152,
+      "sha256": "be2041bb828ba309d1346d0912f2f90965c137e5d43a60f8c636d4174cdd9164",
+      "has_other_locked_literal": false,
+      "lock_signals": []
+    }
+  ]
+}

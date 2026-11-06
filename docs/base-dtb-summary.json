@@ -1,0 +1,38 @@
+{
+  "source": "Verified stock vendor_boot FZI1",
+  "live_selected_index": 0,
+  "entries": [
+    {
+      "index": 0,
+      "offset": 0,
+      "bytes": 452819,
+      "model": "Qualcomm Technologies, Inc. Kalama v2 SoC",
+      "compatible": "qcom,kalama|",
+      "sha256": "fd484ce4b3581cc50c51dcf9119a5fbff05129aa075182b66c2e0a4474a94a02"
+    },
+    {
+      "index": 1,
+      "offset": 452819,
+      "bytes": 453300,
+      "model": "Qualcomm Technologies, Inc. Kalama SoC",
+      "compatible": "qcom,kalama|",
+      "sha256": "eb593b6efb0b29f347061e77dd825f7245ae4dc4b9d4852317237ec10a09cf4f"
+    },
+    {
+      "index": 2,
+      "offset": 906119,
+      "bytes": 448956,
+      "model": "Qualcomm Technologies, Inc. KalamaP v2 SoC",
+      "compatible": "qcom,kalamap|",
+      "sha256": "3dbd80eee293930f96cd413b33c6dd2dee65a0d74b9f8e093f697abb77aec861"
+    },
+    {
+      "index": 3,
+      "offset": 1355075,
+      "bytes": 448712,
+      "model": "Qualcomm Technologies, Inc. KalamaP SoC",
+      "compatible": "qcom,kalamap|",
+      "sha256": "0723df2c40f61079cb1cf89ac9525878d18bf5707847b6f321d7fca4649d0c0b"
+    }
+  ]
+}

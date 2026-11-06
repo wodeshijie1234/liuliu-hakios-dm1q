@@ -1,0 +1,9 @@
+{
+  "bytes": 135168,
+  "sha256": "0d834b0bececec87b18749cee16de8fa07625f7841b992fd423f6477e37fcc41",
+  "architecture": "AARCH64",
+  "format": "PE32+",
+  "subsystem": "EFI application",
+  "imports": 0,
+  "hardware_execution": false
+}

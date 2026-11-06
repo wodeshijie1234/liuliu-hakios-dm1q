@@ -1,0 +1,6 @@
+{
+  "ready": false,
+  "blockers": [
+    "DM1Q_BOOT_CHAIN_NOT_VALIDATED"
+  ]
+}

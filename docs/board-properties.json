@@ -1,0 +1,11 @@
+{
+  "ro.boot.revision": "14",
+  "ro.boot.dtb_idx": "0",
+  "ro.boot.dtbo_idx": "6",
+  "ro.boot.em.model": "SM-S9110",
+  "ro.boot.hardware": "qcom",
+  "ro.board.platform": "kalama",
+  "ro.product.board": "kalama",
+  "ro.hardware": "qcom",
+  "ro.boot.hardware.platform": ""
+}

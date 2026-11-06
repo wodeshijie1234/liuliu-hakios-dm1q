@@ -1,0 +1,60 @@
+{
+  "method": "Static string inventory only; not control flow proof",
+  "images": [
+    {
+      "name": "abl.elf",
+      "bytes": 4194304,
+      "sha256": "bf544382d346825c2e6fac5e27beee92b3d15a3a479e577db93022f22b105be9",
+      "ascii_signals": [
+        "@%oeMX"
+      ],
+      "utf16_signals": []
+    },
+    {
+      "name": "uefi.elf",
+      "bytes": 3023160,
+      "sha256": "cc04b12c73d50fb94f9b21e877358ce78e246763b69b1e0dd4e8e03db25cc3cf",
+      "ascii_signals": [
+        "Trying to unlock invalid spinlock: %d",
+        "## Enable OEM Setup App launch in Retail ##",
+        "EnableOEMSetupAppInRetail = 0x0",
+        "5}oem"
+      ],
+      "utf16_signals": []
+    },
+    {
+      "name": "xbl_s.melf",
+      "bytes": 4194304,
+      "sha256": "252c6e5645934561dd4d5a1ec78ba7647c2e56f329299bc44d29f10f0a115e26",
+      "ascii_signals": [
+        "OEM ID",
+        "OEM Config Row 0",
+        "OEM Config Row 1",
+        "OEM LCS:",
+        "OEM_MISC",
+        "OEM_PSI Start",
+        "OEM_PSI Done",
+        "OEM_PSI- Error err_flag: 0x%x ; slave_id: 0x%x",
+        "OEM_PSI- PID 0x%x on SID 0x%x not whitelisted",
+        "LCP region OEM VM as DARE end_addr + tags:0x%x exceeds max valid address 0x%x",
+        "LCP region OEM VM  end_addr:0x%x exceeds max valid address 0x%x"
+      ],
+      "utf16_signals": []
+    },
+    {
+      "name": "xbl_config.elf",
+      "bytes": 188968,
+      "sha256": "be2d9077a1949d74414329bf3f0d547603f9df19305d7214f7f6cec2ffbd9ecd",
+      "ascii_signals": [
+        "## Enable OEM Setup App launch in Retail ##",
+        "EnableOEMSetupAppInRetail = 0x0",
+        "Unlock = Yes",
+        "Unlock = Yes",
+        "OEMID",
+        "OEMTableID",
+        "OEMRevision"
+      ],
+      "utf16_signals": []
+    }
+  ]
+}

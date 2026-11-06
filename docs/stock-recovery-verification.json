@@ -1,0 +1,279 @@
+{
+  "firmware": "S9110ZCS8FZI1/S9110CHC8FZI1/S9110ZCS8FZI1/S9110ZCS8FZI1",
+  "model": "SM-S9110",
+  "region": "CHC",
+  "source": "Samsung FUS",
+  "zip_bytes": 13811659536,
+  "zip_sha256": "7cfe4cca0ea711e7371224e62fcfeed458ecf14b4f0a8c53792c0f8ed3fb5385",
+  "zip_all_members_crc_verified": true,
+  "packages": [
+    {
+      "name": "BL_S9110ZCS8FZI1_S9110ZCS8FZI1_MQB114877733_REV00_user_low_ship_MULTI_CERT.tar.md5",
+      "bytes": 123054193,
+      "zip_crc32": "0xc1a1788f",
+      "zip_crc32_verified": true,
+      "sha256": "7e2279084532588d5c33169b0d45cf953d35547cc2c55f156afa3980f926d821",
+      "appended_md5_verified": true,
+      "members": [
+        {
+          "name": "abl.elf.lz4",
+          "bytes": 827235
+        },
+        {
+          "name": "bksecapp.mbn.lz4",
+          "bytes": 26218
+        },
+        {
+          "name": "xbl_s.melf.lz4",
+          "bytes": 772850
+        },
+        {
+          "name": "xbl_config.elf.lz4",
+          "bytes": 71994
+        },
+        {
+          "name": "tz_iccc.mbn.lz4",
+          "bytes": 41824
+        },
+        {
+          "name": "tz.mbn.lz4",
+          "bytes": 1964170
+        },
+        {
+          "name": "hypvm.mbn.lz4",
+          "bytes": 797824
+        },
+        {
+          "name": "devcfg.mbn.lz4",
+          "bytes": 183562
+        },
+        {
+          "name": "aop.mbn.lz4",
+          "bytes": 149528
+        },
+        {
+          "name": "aop_devcfg.mbn.lz4",
+          "bytes": 5773
+        },
+        {
+          "name": "keymint.mbn.lz4",
+          "bytes": 233182
+        },
+        {
+          "name": "qupv3fw.elf.lz4",
+          "bytes": 22563
+        },
+        {
+          "name": "storsec.mbn.lz4",
+          "bytes": 10091
+        },
+        {
+          "name": "NON-HLOS.bin.lz4",
+          "bytes": 69166894
+        },
+        {
+          "name": "dspso.bin.lz4",
+          "bytes": 39076422
+        },
+        {
+          "name": "imagefv.elf.lz4",
+          "bytes": 3297848
+        },
+        {
+          "name": "uefi.elf.lz4",
+          "bytes": 2731446
+        },
+        {
+          "name": "uefi_sec.mbn.lz4",
+          "bytes": 79025
+        },
+        {
+          "name": "shrm.elf.lz4",
+          "bytes": 27745
+        },
+        {
+          "name": "cpucp.elf.lz4",
+          "bytes": 77315
+        },
+        {
+          "name": "XblRamdump.elf.lz4",
+          "bytes": 945434
+        },
+        {
+          "name": "sec.elf.lz4",
+          "bytes": 2406
+        },
+        {
+          "name": "apdp.mbn.lz4",
+          "bytes": 2550
+        },
+        {
+          "name": "vbmeta.img.lz4",
+          "bytes": 3949
+        },
+        {
+          "name": "quest.fv.lz4",
+          "bytes": 2737
+        },
+        {
+          "name": "testvector.fv.lz4",
+          "bytes": 33433
+        },
+        {
+          "name": "QcomCate.fv.lz4",
+          "bytes": 2483
+        },
+        {
+          "name": "Core_NON-HLOS.bin.lz4",
+          "bytes": 59729
+        },
+        {
+          "name": "tz_hdm.mbn.lz4",
+          "bytes": 857500
+        },
+        {
+          "name": "tz_kg.mbn.lz4",
+          "bytes": 893219
+        },
+        {
+          "name": "vaultkeeper.mbn.lz4",
+          "bytes": 659079
+        }
+      ]
+    },
+    {
+      "name": "AP_S9110ZCS8FZI1_S9110ZCS8FZI1_MQB114877733_REV00_user_low_ship_MULTI_CERT_meta_OS16.tar.md5",
+      "bytes": 15925442683,
+      "zip_crc32": "0xfc62d75e",
+      "zip_crc32_verified": true,
+      "sha256": "6da2dc8d609bceb64f3b1da1d6a33077e58ddc98ea55b0ad978c3095b61939e3",
+      "appended_md5_verified": true,
+      "members": [
+        {
+          "name": "boot.img.lz4",
+          "bytes": 29760085
+        },
+        {
+          "name": "dtbo.img.lz4",
+          "bytes": 1761455
+        },
+        {
+          "name": "super.img.lz4",
+          "bytes": 9438167101
+        },
+        {
+          "name": "recovery.img.lz4",
+          "bytes": 62476562
+        },
+        {
+          "name": "vendor_boot.img.lz4",
+          "bytes": 16634818
+        },
+        {
+          "name": "vbmeta_system.img.lz4",
+          "bytes": 2929
+        },
+        {
+          "name": "persist.img.lz4",
+          "bytes": 9883
+        },
+        {
+          "name": "init_boot.img.lz4",
+          "bytes": 1777279
+        },
+        {
+          "name": "userdata.img.lz4",
+          "bytes": 5110838539
+        },
+        {
+          "name": "misc.bin.lz4",
+          "bytes": 2531
+        },
+        {
+          "name": "vm-bootsys.img.lz4",
+          "bytes": 55890132
+        },
+        {
+          "name": "meta-data/fota.zip",
+          "bytes": 1208102163
+        }
+      ]
+    },
+    {
+      "name": "CP_S9110ZCS8FZI1_CP36331023_MQB114843594_REV00_user_low_ship_MULTI_CERT.tar.md5",
+      "bytes": 74106990,
+      "zip_crc32": "0xb16c996c",
+      "zip_crc32_verified": true,
+      "sha256": "e2a950566f6690c919182fd8f2b5f2e37392002476ff06ba81bb83736398735e",
+      "appended_md5_verified": true,
+      "members": [
+        {
+          "name": "modem.bin.lz4",
+          "bytes": 74101447
+        }
+      ]
+    },
+    {
+      "name": "HOME_CSC_CHC_S9110CHC8FZI1_MQB114877733_REV00_user_low_ship_MULTI_CERT.tar.md5",
+      "bytes": 47175789,
+      "zip_crc32": "0x1e43d8bd",
+      "zip_crc32_verified": true,
+      "sha256": "6b51465938fa4cd372c62565273d1973daab1ea8f430e9ac43a3f841337f31a4",
+      "appended_md5_verified": true,
+      "members": [
+        {
+          "name": "cache.img.lz4",
+          "bytes": 1750
+        },
+        {
+          "name": "prism.img.lz4",
+          "bytes": 47112865
+        },
+        {
+          "name": "optics.img.lz4",
+          "bytes": 52297
+        },
+        {
+          "name": "meta-data/download-list.txt",
+          "bytes": 521
+        }
+      ]
+    },
+    {
+      "name": "CSC_CHC_S9110CHC8FZI1_MQB114877733_REV00_user_low_ship_MULTI_CERT.tar.md5",
+      "bytes": 47196264,
+      "zip_crc32": "0xa4fec72",
+      "zip_crc32_verified": true,
+      "sha256": "ba1a3c2a6b403a28079f60548b4e9fad401cd51e0fd7e23027dfcddebc971fa2",
+      "appended_md5_verified": true,
+      "members": [
+        {
+          "name": "DM1Q_CHN_OPENX.pit",
+          "bytes": 15456
+        },
+        {
+          "name": "cache.img.lz4",
+          "bytes": 1786
+        },
+        {
+          "name": "omr.img.lz4",
+          "bytes": 1308
+        },
+        {
+          "name": "prism.img.lz4",
+          "bytes": 47112865
+        },
+        {
+          "name": "optics.img.lz4",
+          "bytes": 52297
+        },
+        {
+          "name": "meta-data/fota.zip",
+          "bytes": 2980
+        }
+      ]
+    }
+  ],
+  "flashed": false,
+  "recovery_boot_tested": false
+}

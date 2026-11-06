@@ -1,0 +1,37 @@
+{
+  "hakios": {
+    "repo": "https://github.com/oosexgang/hakios-xnu-kernel",
+    "commit": "63fc2b4633bac3af8e57dadab9f5a8d4cb940438",
+    "archive_sha256": "5eebd9c322846d2e246a0a4a3bbb73a9a679d651af7d32a58a28cf1b58b06dc0",
+    "verified_git_blobs": 879
+  },
+  "mu_silicium_reference": {
+    "repo": "https://github.com/Project-Silicium/Mu-Silicium",
+    "commit": "8471e47f5248ebbffc2e6196b683204163efe155",
+    "scope": "dm2q reference only; no dm1q validation",
+    "verified_source_files": 16
+  },
+  "host_tools": {
+    "samloader": {
+      "version": "2.2.0",
+      "release_url": "https://github.com/topjohnwu/samloader-rs/releases/tag/2.2.0",
+      "archive_sha256": "74578787146ad284ad285b00c1270b7db0ff8d31576f19159103bb1bf56cf808"
+    },
+    "ziglang": {
+      "version": "0.14.1",
+      "distribution": "PyPI ziglang macos arm64 wheel",
+      "archive_sha256": "eae7d46746b8e80a4d1a8369b09f7a6aace973ee39207b1b63cfb6bb086e84dc"
+    },
+    "dtc": {
+      "repo": "https://github.com/dgibson/dtc",
+      "commit": "54e547173bf0f2a4cc35eba8b5738caf38b9230f",
+      "built_on_host": true,
+      "scope": "dtc/fdtoverlay only"
+    }
+  },
+  "lineage_reference": {
+    "repo": "https://github.com/LineageOS/android_kernel_samsung_sm8550-devicetrees",
+    "commit": "5d524a80f98cabb136fdf360de501bed9ef13b06",
+    "scope": "European dm1q/dm2q overlay references, not CHC FZI1 live tree"
+  }
+}

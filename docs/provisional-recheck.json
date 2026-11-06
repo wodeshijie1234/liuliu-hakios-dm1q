@@ -1,0 +1,12 @@
+{
+  "boot.img": {
+    "full_verified_source_sha256": "cf0c321162e77603a87e1756ea28f001caca9fad79998c4cc258f85eb1b82c31",
+    "provisional_sha256": "cf0c321162e77603a87e1756ea28f001caca9fad79998c4cc258f85eb1b82c31",
+    "match": true
+  },
+  "dtbo.img": {
+    "full_verified_source_sha256": "ce5cd266686b0e939fc5c8cb147a1b8751b96e8e5e7a21bc630e31b737abc3d7",
+    "provisional_sha256": "ce5cd266686b0e939fc5c8cb147a1b8751b96e8e5e7a21bc630e31b737abc3d7",
+    "match": true
+  }
+}

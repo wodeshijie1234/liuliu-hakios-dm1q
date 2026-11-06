@@ -1,0 +1,12 @@
+{
+  "current_user": "0",
+  "ro.product.model": "SM-S9110",
+  "ro.product.device": "dm1q",
+  "ro.bootloader": "S9110ZCS8FZI1",
+  "ro.boot.flash.locked": "1",
+  "ro.boot.vbmeta.device_state": "locked",
+  "ro.boot.other.locked": "1",
+  "ro.boot.warranty_bit": "0",
+  "stay_on_while_plugged_in": "0",
+  "check_time": "2026-11-06 Asia/Shanghai"
+}

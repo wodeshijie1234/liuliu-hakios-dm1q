@@ -1,0 +1,382 @@
+{
+  "apk_sha256": "2ac6a07687b627a04615d9d2eb3e9c461b334ce5c81f426adcbbed817c0f5bcd",
+  "class": "Lcom/android/settings/development/OemUnlockPreferenceController;",
+  "method": "isAvailable",
+  "dex": "classes.dex",
+  "method_code_offset": 5666688,
+  "instruction_code_units": 82,
+  "audit": "read-only static decoding; not runtime execution",
+  "finding": "When ro.boot.other.locked equals 1, the visibility predicate returns false.",
+  "runtime_property": "ro.boot.other.locked=1 (read by ADB in both normal and maintenance modes)",
+  "instructions": [
+    {
+      "code_unit": 0,
+      "opcode": "new-instance",
+      "operands": "v0, Ljava/lang/StringBuilder;",
+      "raw": [
+        "0x22",
+        "0x3b0c"
+      ]
+    },
+    {
+      "code_unit": 2,
+      "opcode": "const-string",
+      "operands": "v1, enableUnlock  : 1 = ",
+      "raw": [
+        "0x11a",
+        "0x914c"
+      ]
+    },
+    {
+      "code_unit": 4,
+      "opcode": "invoke-direct",
+      "operands": "{v0,v1}, Ljava/lang/StringBuilder;-><init>",
+      "raw": [
+        "0x2070",
+        "0xf494",
+        "0x10"
+      ]
+    },
+    {
+      "code_unit": 7,
+      "opcode": "const-string",
+      "operands": "v1, ro.frp.pst",
+      "raw": [
+        "0x11a",
+        "0xddc9"
+      ]
+    },
+    {
+      "code_unit": 9,
+      "opcode": "invoke-static",
+      "operands": "{v1}, Landroid/os/SystemProperties;->get",
+      "raw": [
+        "0x1071",
+        "0xdc6",
+        "0x1"
+      ]
+    },
+    {
+      "code_unit": 12,
+      "opcode": "move-result-object",
+      "operands": "v2",
+      "raw": [
+        "0x20c"
+      ]
+    },
+    {
+      "code_unit": 13,
+      "opcode": "invoke-virtual",
+      "operands": "{v0,v2}, Ljava/lang/StringBuilder;->append",
+      "raw": [
+        "0x206e",
+        "0xf49d",
+        "0x20"
+      ]
+    },
+    {
+      "code_unit": 16,
+      "opcode": "const-string",
+      "operands": "v2,  / 2 = ",
+      "raw": [
+        "0x21a",
+        "0x436"
+      ]
+    },
+    {
+      "code_unit": 18,
+      "opcode": "invoke-virtual",
+      "operands": "{v0,v2}, Ljava/lang/StringBuilder;->append",
+      "raw": [
+        "0x206e",
+        "0xf49d",
+        "0x20"
+      ]
+    },
+    {
+      "code_unit": 21,
+      "opcode": "const-string",
+      "operands": "v2, ro.boot.other.locked",
+      "raw": [
+        "0x21a",
+        "0xddbb"
+      ]
+    },
+    {
+      "code_unit": 23,
+      "opcode": "invoke-static",
+      "operands": "{v2}, Landroid/os/SystemProperties;->get",
+      "raw": [
+        "0x1071",
+        "0xdc6",
+        "0x2"
+      ]
+    },
+    {
+      "code_unit": 26,
+      "opcode": "move-result-object",
+      "operands": "v3",
+      "raw": [
+        "0x30c"
+      ]
+    },
+    {
+      "code_unit": 27,
+      "opcode": "invoke-virtual",
+      "operands": "{v0,v3}, Ljava/lang/StringBuilder;->append",
+      "raw": [
+        "0x206e",
+        "0xf49d",
+        "0x30"
+      ]
+    },
+    {
+      "code_unit": 30,
+      "opcode": "invoke-virtual",
+      "operands": "{v0}, Ljava/lang/StringBuilder;->toString",
+      "raw": [
+        "0x106e",
+        "0xf4a6",
+        "0x0"
+      ]
+    },
+    {
+      "code_unit": 33,
+      "opcode": "move-result-object",
+      "operands": "v0",
+      "raw": [
+        "0xc"
+      ]
+    },
+    {
+      "code_unit": 34,
+      "opcode": "const-string",
+      "operands": "v3, OemUnlockPreferenceController",
+      "raw": [
+        "0x31a",
+        "0x6780"
+      ]
+    },
+    {
+      "code_unit": 36,
+      "opcode": "invoke-static",
+      "operands": "{v3,v0}, Landroid/util/Log;->d",
+      "raw": [
+        "0x2071",
+        "0x1151",
+        "0x3"
+      ]
+    },
+    {
+      "code_unit": 39,
+      "opcode": "invoke-static",
+      "operands": "{v1}, Landroid/os/SystemProperties;->get",
+      "raw": [
+        "0x1071",
+        "0xdc6",
+        "0x1"
+      ]
+    },
+    {
+      "code_unit": 42,
+      "opcode": "move-result-object",
+      "operands": "v0",
+      "raw": [
+        "0xc"
+      ]
+    },
+    {
+      "code_unit": 43,
+      "opcode": "const-string",
+      "operands": "v1, ",
+      "raw": [
+        "0x11a",
+        "0x0"
+      ]
+    },
+    {
+      "code_unit": 45,
+      "opcode": "invoke-virtual",
+      "operands": "{v0,v1}, Ljava/lang/String;->equals",
+      "raw": [
+        "0x206e",
+        "0xf461",
+        "0x10"
+      ]
+    },
+    {
+      "code_unit": 48,
+      "opcode": "move-result",
+      "operands": "v0",
+      "raw": [
+        "0xa"
+      ]
+    },
+    {
+      "code_unit": 49,
+      "opcode": "const/4",
+      "operands": "v1, 0",
+      "raw": [
+        "0x112"
+      ]
+    },
+    {
+      "code_unit": 50,
+      "opcode": "if-nez",
+      "operands": "v0, @81",
+      "raw": [
+        "0x39",
+        "0x1f"
+      ]
+    },
+    {
+      "code_unit": 52,
+      "opcode": "invoke-static",
+      "operands": "{v2}, Landroid/os/SystemProperties;->get",
+      "raw": [
+        "0x1071",
+        "0xdc6",
+        "0x2"
+      ]
+    },
+    {
+      "code_unit": 55,
+      "opcode": "move-result-object",
+      "operands": "v0",
+      "raw": [
+        "0xc"
+      ]
+    },
+    {
+      "code_unit": 56,
+      "opcode": "const-string",
+      "operands": "v2, 1",
+      "raw": [
+        "0x21a",
+        "0x127f"
+      ]
+    },
+    {
+      "code_unit": 58,
+      "opcode": "invoke-virtual",
+      "operands": "{v0,v2}, Ljava/lang/String;->equals",
+      "raw": [
+        "0x206e",
+        "0xf461",
+        "0x20"
+      ]
+    },
+    {
+      "code_unit": 61,
+      "opcode": "move-result",
+      "operands": "v0",
+      "raw": [
+        "0xa"
+      ]
+    },
+    {
+      "code_unit": 62,
+      "opcode": "if-nez",
+      "operands": "v0, @81",
+      "raw": [
+        "0x39",
+        "0x13"
+      ]
+    },
+    {
+      "code_unit": 64,
+      "opcode": "invoke-static",
+      "operands": "{}, Lcom/samsung/android/knoxguard/KnoxGuardManager;->getInstance",
+      "raw": [
+        "0x71",
+        "0xf1b6",
+        "0x0"
+      ]
+    },
+    {
+      "code_unit": 67,
+      "opcode": "move-result-object",
+      "operands": "v0",
+      "raw": [
+        "0xc"
+      ]
+    },
+    {
+      "code_unit": 68,
+      "opcode": "invoke-virtual",
+      "operands": "{v0}, Lcom/samsung/android/knoxguard/KnoxGuardManager;->shouldBlockCustomRom",
+      "raw": [
+        "0x106e",
+        "0xf1b7",
+        "0x0"
+      ]
+    },
+    {
+      "code_unit": 71,
+      "opcode": "move-result",
+      "operands": "v0",
+      "raw": [
+        "0xa"
+      ]
+    },
+    {
+      "code_unit": 72,
+      "opcode": "if-eqz",
+      "operands": "v0, @75",
+      "raw": [
+        "0x38",
+        "0x3"
+      ]
+    },
+    {
+      "code_unit": 74,
+      "opcode": "goto",
+      "operands": "@81",
+      "raw": [
+        "0x728"
+      ]
+    },
+    {
+      "code_unit": 75,
+      "opcode": "iget-object",
+      "operands": "v4, v4, Lcom/android/settings/development/OemUnlockPreferenceController;->mOemLockManager",
+      "raw": [
+        "0x4454",
+        "0x7b66"
+      ]
+    },
+    {
+      "code_unit": 77,
+      "opcode": "if-eqz",
+      "operands": "v4, @81",
+      "raw": [
+        "0x438",
+        "0x4"
+      ]
+    },
+    {
+      "code_unit": 79,
+      "opcode": "const/4",
+      "operands": "v4, 1",
+      "raw": [
+        "0x1412"
+      ]
+    },
+    {
+      "code_unit": 80,
+      "opcode": "return",
+      "operands": "v4",
+      "raw": [
+        "0x40f"
+      ]
+    },
+    {
+      "code_unit": 81,
+      "opcode": "return",
+      "operands": "v1",
+      "raw": [
+        "0x10f"
+      ]
+    }
+  ]
+}

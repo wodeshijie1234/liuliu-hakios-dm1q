@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-06T16:13:28.477930+00:00",
+  "scope": "Local preparation only; not an independent hardware review or flash authorization",
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 4,
+    "failed": 0
+  },
+  "upstream_device_check": "passed dm1q; copied device files compared byte-for-byte with project",
+  "upstream_config_check": "passed; 29 symbols set; boot arguments cpus=1; firmware none; 25 drivers disabled",
+  "static_tree_reproduction": {
+    "base_entries": 4,
+    "overlay_entries": 7,
+    "selected_base": 0,
+    "selected_overlay": 6,
+    "sha256": "d7daddc3aab38776fdb1350cb000f127d83a9547e2fe31cd10b89d2a74c54a29",
+    "repeat_merge_matched": true
+  },
+  "recovery_files": "Five packages already verified by ZIP CRC, appended MD5 and SHA256; not rehashed in this documentation-only check",
+  "preflight_report": "preflight-with-recovery.json; ready=false; DM1Q_BOOT_CHAIN_NOT_VALIDATED remains",
+  "public_content_scan": "Text-only allowlisted project files reviewed; JSON parsed; Markdown local links checked; no credential patterns or machine paths found",
+  "prior_git_history_scan": {
+    "blob_count": 46,
+    "credential_pattern_findings": 0,
+    "binary_or_large_file_findings": 0
+  },
+  "device_read_only_recheck": "device-inventory-final.json; primary user0, locked, Knox0, stay_on0",
+  "not_validated": [
+    "bootloader unlock",
+    "custom UEFI execution",
+    "XNU boot",
+    "any HakiOS driver on dm1q",
+    "restore flash test",
+    "GitHub publication"
+  ]
+}

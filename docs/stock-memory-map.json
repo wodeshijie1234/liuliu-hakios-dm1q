@@ -1,0 +1,517 @@
+{
+  "method": "Parsed from embedded stock configuration, not live UEFI memory map",
+  "sources": [
+    {
+      "source_image": "xbl_config.elf",
+      "image_sha256": "be2d9077a1949d74414329bf3f0d547603f9df19305d7214f7f6cec2ffbd9ecd",
+      "embedded_configuration_offset": 104032,
+      "regions": [
+        {
+          "section": "[MemoryMap]",
+          "base": "0x80000000",
+          "size": "0x01200000",
+          "label": "NOMAP"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81200000",
+          "size": "0x00800000",
+          "label": "RSRV0"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81A00000",
+          "size": "0x00040000",
+          "label": "XBL DT"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81A40000",
+          "size": "0x001C0000",
+          "label": "XBL Ramdump"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81C00000",
+          "size": "0x000A0000",
+          "label": "AOP"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81D00000",
+          "size": "0x00200000",
+          "label": "SMEM"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x86E00000",
+          "size": "0x02A00000",
+          "label": "RSRV1"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x89800000",
+          "size": "0x19280000",
+          "label": "PIL Reserved"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA2A80000",
+          "size": "0x02B00000",
+          "label": "Display Demura"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA5580000",
+          "size": "0x00B80000",
+          "label": "RSRV2"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA6100000",
+          "size": "0x00F00000",
+          "label": "DBI Dump"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7000000",
+          "size": "0x00400000",
+          "label": "UEFI FD"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7400000",
+          "size": "0x00200000",
+          "label": "UEFI FD Reserved"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7600000",
+          "size": "0x00001000",
+          "label": "CPU Vectors"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7601000",
+          "size": "0x00001000",
+          "label": "Info Blk"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7602000",
+          "size": "0x00003000",
+          "label": "MMU PageTables"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7605000",
+          "size": "0x00008000",
+          "label": "Log Buffer"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA760D000",
+          "size": "0x00040000",
+          "label": "UEFI Stack"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA764D000",
+          "size": "0x0008C000",
+          "label": "SEC Heap"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA76D9000",
+          "size": "0x00400000",
+          "label": "Sched Heap"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7AD9000",
+          "size": "0x00400000",
+          "label": "FV Region"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7ED9000",
+          "size": "0x00127000",
+          "label": "UEFI RESV"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA8000000",
+          "size": "0x10000000",
+          "label": "Kernel"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xB8000000",
+          "size": "0x02B00000",
+          "label": "Display Reserved"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xBAB00000",
+          "size": "0x0D1C0000",
+          "label": "DXE Heap"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xD8800000",
+          "size": "0x08A00000",
+          "label": "TZApps Reserved"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xEEB00000",
+          "size": "0x04B00000",
+          "label": "RSRV3"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xFF800000",
+          "size": "0x00800000",
+          "label": "NOMAP"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x14680000",
+          "size": "0x0002A000",
+          "label": "IMEM Base"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x146AA000",
+          "size": "0x00016000",
+          "label": "IMEM Cookie Base"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x00400000",
+          "size": "0x00100000",
+          "label": "IPC_ROUTER_TOP"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x00780000",
+          "size": "0x00007000",
+          "label": "SECURITY CONTROL"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x00800000",
+          "size": "0x00300000",
+          "label": "QUP"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x010C0000",
+          "size": "0x0000C000",
+          "label": "PRNG_CFG_PRNG"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x01DC0000",
+          "size": "0x00040000",
+          "label": "CRYPTO0 CRYPTO"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x01F00000",
+          "size": "0x00100000",
+          "label": "CORE_TOP_CSR"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x08800000",
+          "size": "0x00100000",
+          "label": "PERIPH_SS"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x0A600000",
+          "size": "0x00200000",
+          "label": "USB"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x0B000000",
+          "size": "0x04000000",
+          "label": "AOSS"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x0F000000",
+          "size": "0x01000000",
+          "label": "TLMM"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x15000000",
+          "size": "0x00200000",
+          "label": "SMMU"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x17000000",
+          "size": "0x02000000",
+          "label": "APSS_HM"
+        }
+      ]
+    },
+    {
+      "source_image": "uefi.elf",
+      "image_sha256": "cc04b12c73d50fb94f9b21e877358ce78e246763b69b1e0dd4e8e03db25cc3cf",
+      "embedded_configuration_offset": 294972,
+      "regions": [
+        {
+          "section": "[MemoryMap]",
+          "base": "0x80000000",
+          "size": "0x01200000",
+          "label": "NOMAP"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81200000",
+          "size": "0x00800000",
+          "label": "RSRV0"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81A00000",
+          "size": "0x00040000",
+          "label": "XBL DT"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81A40000",
+          "size": "0x001C0000",
+          "label": "XBL Ramdump"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81C00000",
+          "size": "0x000A0000",
+          "label": "AOP"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81D00000",
+          "size": "0x00200000",
+          "label": "SMEM"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x81CE4000",
+          "size": "0x00010000",
+          "label": "UEFI Log"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x8A800000",
+          "size": "0x18280000",
+          "label": "PIL Reserved"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA2A80000",
+          "size": "0x02B00000",
+          "label": "Display Demura"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA6100000",
+          "size": "0x00F00000",
+          "label": "DBI Dump"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7000000",
+          "size": "0x00400000",
+          "label": "UEFI FD"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7400000",
+          "size": "0x00200000",
+          "label": "UEFI FD Reserved"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7600000",
+          "size": "0x00001000",
+          "label": "CPU Vectors"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7601000",
+          "size": "0x00001000",
+          "label": "Info Blk"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7602000",
+          "size": "0x00003000",
+          "label": "MMU PageTables"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7605000",
+          "size": "0x00008000",
+          "label": "Log Buffer"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA760D000",
+          "size": "0x00040000",
+          "label": "UEFI Stack"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA764D000",
+          "size": "0x0008C000",
+          "label": "SEC Heap"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA76D9000",
+          "size": "0x00400000",
+          "label": "Sched Heap"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7AD9000",
+          "size": "0x00400000",
+          "label": "FV Region"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA7ED9000",
+          "size": "0x00127000",
+          "label": "UEFI RESV"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xA8000000",
+          "size": "0x10000000",
+          "label": "Kernel"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xB8000000",
+          "size": "0x02B00000",
+          "label": "Display Reserved"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xBAB00000",
+          "size": "0x0D1C0000",
+          "label": "DXE Heap"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xD8800000",
+          "size": "0x07400000",
+          "label": "TZApps Reserved"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0xFF800000",
+          "size": "0x00800000",
+          "label": "NOMAP"
+        },
+        {
+          "section": "[MemoryMap]",
+          "base": "0x880000000",
+          "size": "0x0B000000",
+          "label": "SEC Debug"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x14680000",
+          "size": "0x0002A000",
+          "label": "IMEM Base"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x146AA000",
+          "size": "0x00016000",
+          "label": "IMEM Cookie Base"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x00400000",
+          "size": "0x00100000",
+          "label": "IPC_ROUTER_TOP"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x00780000",
+          "size": "0x00007000",
+          "label": "SECURITY CONTROL"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x00800000",
+          "size": "0x00300000",
+          "label": "QUP"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x010C0000",
+          "size": "0x0000C000",
+          "label": "PRNG_CFG_PRNG"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x01DC0000",
+          "size": "0x00040000",
+          "label": "CRYPTO0 CRYPTO"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x01F00000",
+          "size": "0x00100000",
+          "label": "CORE_TOP_CSR"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x08800000",
+          "size": "0x00100000",
+          "label": "PERIPH_SS"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x0A600000",
+          "size": "0x00200000",
+          "label": "USB"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x0B000000",
+          "size": "0x04000000",
+          "label": "AOSS"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x0F000000",
+          "size": "0x01000000",
+          "label": "TLMM"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x15000000",
+          "size": "0x00200000",
+          "label": "SMMU"
+        },
+        {
+          "section": "[RegisterMap]",
+          "base": "0x17000000",
+          "size": "0x02000000",
+          "label": "APSS_HM"
+        }
+      ]
+    }
+  ]
+}

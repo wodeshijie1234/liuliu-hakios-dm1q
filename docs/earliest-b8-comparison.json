@@ -1,0 +1,176 @@
+{
+  "version": "S9110ZCS8FZE3",
+  "bl_verification": {
+    "version": "S9110ZCS8FZE3/S9110CHC8FZE3/S9110ZCS8FZE3/S9110ZCS8FZE3",
+    "member_name": "BL_S9110ZCS8FZE3_S9110ZCS8FZE3_MQB109947285_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "downloaded_compressed_bytes": 102366502,
+    "tar_bytes": 123064433,
+    "zip_crc32_verified": true,
+    "appended_md5_verified": true,
+    "sha256": "d73abbbda27703632cd95065b9dcccd7582404eb1a9f616f895840aa9f926f61",
+    "members": [
+      {
+        "name": "abl.elf.lz4",
+        "bytes": 826999
+      },
+      {
+        "name": "bksecapp.mbn.lz4",
+        "bytes": 26225
+      },
+      {
+        "name": "xbl_s.melf.lz4",
+        "bytes": 772852
+      },
+      {
+        "name": "xbl_config.elf.lz4",
+        "bytes": 71994
+      },
+      {
+        "name": "tz_iccc.mbn.lz4",
+        "bytes": 41643
+      },
+      {
+        "name": "tz.mbn.lz4",
+        "bytes": 1964173
+      },
+      {
+        "name": "hypvm.mbn.lz4",
+        "bytes": 797826
+      },
+      {
+        "name": "devcfg.mbn.lz4",
+        "bytes": 183554
+      },
+      {
+        "name": "aop.mbn.lz4",
+        "bytes": 149530
+      },
+      {
+        "name": "aop_devcfg.mbn.lz4",
+        "bytes": 5770
+      },
+      {
+        "name": "keymint.mbn.lz4",
+        "bytes": 233052
+      },
+      {
+        "name": "qupv3fw.elf.lz4",
+        "bytes": 22559
+      },
+      {
+        "name": "storsec.mbn.lz4",
+        "bytes": 10084
+      },
+      {
+        "name": "NON-HLOS.bin.lz4",
+        "bytes": 69166923
+      },
+      {
+        "name": "dspso.bin.lz4",
+        "bytes": 39076422
+      },
+      {
+        "name": "imagefv.elf.lz4",
+        "bytes": 3297852
+      },
+      {
+        "name": "uefi.elf.lz4",
+        "bytes": 2738255
+      },
+      {
+        "name": "uefi_sec.mbn.lz4",
+        "bytes": 79030
+      },
+      {
+        "name": "shrm.elf.lz4",
+        "bytes": 27743
+      },
+      {
+        "name": "cpucp.elf.lz4",
+        "bytes": 77313
+      },
+      {
+        "name": "XblRamdump.elf.lz4",
+        "bytes": 945474
+      },
+      {
+        "name": "sec.elf.lz4",
+        "bytes": 2401
+      },
+      {
+        "name": "apdp.mbn.lz4",
+        "bytes": 2550
+      },
+      {
+        "name": "vbmeta.img.lz4",
+        "bytes": 3960
+      },
+      {
+        "name": "quest.fv.lz4",
+        "bytes": 2737
+      },
+      {
+        "name": "testvector.fv.lz4",
+        "bytes": 33433
+      },
+      {
+        "name": "QcomCate.fv.lz4",
+        "bytes": 2483
+      },
+      {
+        "name": "Core_NON-HLOS.bin.lz4",
+        "bytes": 59729
+      },
+      {
+        "name": "tz_hdm.mbn.lz4",
+        "bytes": 857500
+      },
+      {
+        "name": "tz_kg.mbn.lz4",
+        "bytes": 893229
+      },
+      {
+        "name": "vaultkeeper.mbn.lz4",
+        "bytes": 659071
+      }
+    ],
+    "flashed": false
+  },
+  "linuxloader_sha256": "8f2ff051c8a1907dfaaa4031bbf49ba8612dd4e89f4f76bb8df0cff143a4f191",
+  "same_current_gate_address": "0xcac60",
+  "instructions": [
+    "0xcac60: sub sp, sp, #0x20",
+    "0xcac64: stp x30, x19, [sp, #0x10]",
+    "0xcac68: adrp x8, #0x142000",
+    "0xcac6c: ldr x8, [x8, #8]",
+    "0xcac70: str x8, [sp, #8]",
+    "0xcac74: bl #0xc2500",
+    "0xcac78: mov x19, x0",
+    "0xcac7c: bl #0x1c20",
+    "0xcac80: tst w0, #0xff",
+    "0xcac84: b.eq #0xcacac",
+    "0xcac88: mov w0, #0x40",
+    "0xcac8c: bl #0x1c48",
+    "0xcac90: tst w0, #0xff",
+    "0xcac94: b.eq #0xcacac",
+    "0xcac98: ldr w2, [x19, #0xf0]",
+    "0xcac9c: adrp x1, #0x10d000",
+    "0xcaca0: add x1, x1, #0x148",
+    "0xcaca4: mov w0, #0x40",
+    "0xcaca8: bl #0x162c",
+    "0xcacac: adrp x9, #0x142000",
+    "0xcacb0: ldr x8, [sp, #8]",
+    "0xcacb4: ldr x9, [x9, #8]",
+    "0xcacb8: cmp x9, x8",
+    "0xcacbc: b.ne #0xcacd0",
+    "0xcacc0: ldp x30, x19, [sp, #0x10]",
+    "0xcacc4: mov w0, wzr",
+    "0xcacc8: add sp, sp, #0x20",
+    "0xcaccc: ret ",
+    "0xcacd0: bl #0x1488",
+    "0xcacd4: udf #0"
+  ],
+  "same_zero_return_pattern": true,
+  "other_locked_literal_present": true,
+  "flashed": false
+}

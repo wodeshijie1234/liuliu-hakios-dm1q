@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-11-06 Asia/Shanghai",
+  "model": "SM-S9110",
+  "device": "dm1q",
+  "soc": "SM8550",
+  "firmware": "S9110ZCS8FZI1",
+  "region": "CHC",
+  "normal_mode": {
+    "flash_locked": "1",
+    "vbmeta": "locked",
+    "other_locked": "1",
+    "knox": "0",
+    "oem_menu_present": false
+  },
+  "physical_entry": {
+    "warning_page_prints_device_unlock_mode": true,
+    "volume_up_hold_over_30_seconds": true,
+    "observed": "Immediately enters Download Mode; no unlock confirmation"
+  },
+  "maintenance_mode": {
+    "confirmed_android_user": 77,
+    "other_locked": "1",
+    "flash_locked": "1",
+    "vbmeta": "locked",
+    "knox": "0",
+    "download_screen": {
+      "current_binary": "Samsung Official",
+      "kg_status": "CHECKING(00)",
+      "warranty_void": "0x0",
+      "rollback": "B8/K8/S8",
+      "secureboot": "ENABLE",
+      "secure_download": "ENABLE",
+      "hdm_status": "NONE",
+      "oem_lock_field": "not shown",
+      "frp_lock_field": "not shown"
+    }
+  },
+  "conclusion": "Current normal OEM-unlock path is blocked. No verified alternative for this exact model/build has been found. This is not proof that all possible future research routes are impossible.",
+  "not_done": [
+    "unlock",
+    "erase",
+    "flash",
+    "hardware execution of custom EFI",
+    "GitHub publication"
+  ],
+  "current_device_mode": "ADB verified primary user 0 after Maintenance Mode exit; flash_locked=1, vbmeta=locked, other_locked=1, Knox=0. Temporary USB stay-awake restored to 0.",
+  "exact_abl_audit": {
+    "module_sha256": "5943b3cb503dd53aec10aecb559911f31badc40df88636eb2ad5023a24cf0ac2",
+    "gate_rva": "0xcac60",
+    "normal_return": "w0=0 at 0xcacc4, ret at 0xcaccc",
+    "caller_checks": [
+      "0x707c8 -> 0x707d0",
+      "0x70810 -> 0x70818"
+    ],
+    "unlock_ui_call": "0x7085c",
+    "scope": "Normal entry disabled by exact firmware. Other indirect or future research routes not exhaustively analyzed."
+  },
+  "restored_check": "docs/device-restored.json",
+  "official_same_binary_comparisons": [
+    {
+      "region": "CHC",
+      "version": "S9110ZCS8FZE3",
+      "normal_oem_gate": "zero return",
+      "report": "docs/earliest-b8-comparison.json",
+      "flashed": false
+    },
+    {
+      "region": "TGY",
+      "version": "S9110ZHS8FZI1",
+      "normal_oem_gate": "zero return",
+      "report": "docs/tgy-b8-comparison.json",
+      "flashed": false
+    }
+  ]
+}

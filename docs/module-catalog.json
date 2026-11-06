@@ -1,0 +1,671 @@
+{
+  "source": "Exact FZI1 BL, UEFI/ABL modules parsed; binaries excluded",
+  "modules": [
+    {
+      "firmware": "abl.elf",
+      "module": "Odin",
+      "bytes": 1200128,
+      "sha256": "9aad06fe8bb6a9d79f909242ff48eaac019d4e38225bfc803d75ec01b3c968ef"
+    },
+    {
+      "firmware": "abl.elf",
+      "module": "LinuxLoader",
+      "bytes": 1769472,
+      "sha256": "5943b3cb503dd53aec10aecb559911f31badc40df88636eb2ad5023a24cf0ac2"
+    },
+    {
+      "firmware": "abl.elf",
+      "module": "Cryptest",
+      "bytes": 647168,
+      "sha256": "870de514e01c37b04b847f860203065841cbe556ab87d5be13316d20b9c05cbe"
+    },
+    {
+      "firmware": "abl.elf",
+      "module": "QuestSOD",
+      "bytes": 45056,
+      "sha256": "0190ea2f3ec9fcfb73c0f2f439b45afe2116c50895a023750bf6ed945ac120da"
+    },
+    {
+      "firmware": "abl.elf",
+      "module": "QuestUSB",
+      "bytes": 49152,
+      "sha256": "be2041bb828ba309d1346d0912f2f90965c137e5d43a60f8c636d4174cdd9164"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "139ff08ac544ec961437dd899cb5ee5d",
+      "bytes": 282824,
+      "sha256": "de36fdc85230498ca2e3d88a1e1d0790dcf809f407c785f51cda32a7a52292c6"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SecShareInfoDxe",
+      "bytes": 28672,
+      "sha256": "efeae3f25505a26341a4e3e773a013e664bbe9194bdf8b3ff2a6b21cc7388afc"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "DxeCore",
+      "bytes": 196608,
+      "sha256": "d674eeed67499d51e80ec1478cdf16b136de5009e477fe2c8e443d7c90601719"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "EnvDxe",
+      "bytes": 69632,
+      "sha256": "4def024ee6f1f4feeb7f52c23600a243ce57efc9b18f4603fb11e55db9ba5d3b"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ParserDxe",
+      "bytes": 32768,
+      "sha256": "92bb4f083a23ccb8c0feff4220257823067b69889e4e56a9c5272f88a2563e5e"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SerialPortDxe",
+      "bytes": 28672,
+      "sha256": "893d321a8179da0046911b5dfd7f1c7909a76a6d62f363d69f1b7f6779d6f3f9"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "RscRtDxe",
+      "bytes": 36864,
+      "sha256": "b8a792bd0f8eb52f93b312038c48b7f544fbe59f29c2268cfd199265abf21c96"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SCHandlerRtDxe",
+      "bytes": 32768,
+      "sha256": "35d7ad312a561b86a4455eb1c8f7584f1f9fec66f44a7dcd14a9446576cdc332"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ArmCpuDxe",
+      "bytes": 53248,
+      "sha256": "7672dd96ae299d417ae247a61a81d2c4d10638ee0d5cf84c772fcd06396a426a"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "RuntimeDxe",
+      "bytes": 32768,
+      "sha256": "4837f625a05f6d77470bf46292e8d3c2d41d6bc76cd081de6e2f2a7fdd1d3598"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SecurityStubDxe",
+      "bytes": 53248,
+      "sha256": "0d719490bd5adec60550b323a2a08f3ed1bebf395a3d7b60fcfab5ef5a88e5fb"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "VerifiedBootDxe",
+      "bytes": 61440,
+      "sha256": "c0bd8c14f16cc50e21b11b9eea530de4f71368513e112323c1c736bfbced06ef"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ShmBridgeDxeLA",
+      "bytes": 36864,
+      "sha256": "d8ecc429832d21ad2ceebf6774bdadf7827415f9770407dde6f7bc94ac12323a"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ScmDxeCompat",
+      "bytes": 53248,
+      "sha256": "c716a8eede014bac75c28adc94b5a02710b682abcd1e0a52214fdbcfa057287c"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "TzDxeLA",
+      "bytes": 65536,
+      "sha256": "5e63a5db8b62e37d303501fcc4855b9fa80b098c45df7c4074c7a619dd52d38a"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "PsStateDxe",
+      "bytes": 28672,
+      "sha256": "bd2ab395745bffd8076ed6691677d451ebd7204df3557856ae1f18bdb8d1168e"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "WatchdogTimer",
+      "bytes": 28672,
+      "sha256": "aa8b1ecc8337ccdb615cb19c809299c8e471706bf03c1cdaa7a4bb3a6c40fb38"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "CapsuleRuntimeDxe",
+      "bytes": 32768,
+      "sha256": "e367e857e2fbad0595beb66e029339c8267be05237cc45727b547f21963abf8e"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "VariableDxe",
+      "bytes": 61440,
+      "sha256": "354d5031433c9188b5ed09753b9d7361982312919e7f213614fb74bc1e853758"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "EmbeddedMonotonicCounter",
+      "bytes": 32768,
+      "sha256": "0750c0162ea85f99b7f5fe64a8cc83921a4a8914da841f6d0061b63dfc5ed02a"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ResetRuntimeDxe",
+      "bytes": 36864,
+      "sha256": "1743a9e5ad97c876112cfeafa6e07c4b9b6a319e963935ee95db0cf2e03c1f95"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "RealTimeClock",
+      "bytes": 36864,
+      "sha256": "0a83642c99c97212bb527d92e4bb0dafd31b92d638ce09a75f496f1439ff5814"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "MetronomeDxe",
+      "bytes": 28672,
+      "sha256": "698c5cbeda768beb942947a6f7332be9e0e7e5b9adfee252a468f65547f487b0"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "HiiDatabase",
+      "bytes": 139264,
+      "sha256": "52f59d88ce256de7170be4d13b6c0f13f109f095e44b101c963c747d49011d3f"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "FontDxe",
+      "bytes": 36864,
+      "sha256": "17bbc7f452f50737f92e295810475ff5c6f8fc05d76cf1d53227f36c994dbb68"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "QcomWDogDxe",
+      "bytes": 32768,
+      "sha256": "bb9370b32de311bd2b041e73d55787da5a12f5bc6d9aa9714cda4da8932a8c98"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ArmGicDxe",
+      "bytes": 36864,
+      "sha256": "0df858ec5bea957b2c7d0e1d44cd18c49a4847486c8cc370e72565514e379c7e"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ArmTimerDxe",
+      "bytes": 32768,
+      "sha256": "65f17269ae4bdfd978cd2c0b737360766ac99fd34e72e89aad78e169a18ce6ed"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ChipInfo",
+      "bytes": 45056,
+      "sha256": "b279236da126b1fb473cc9c593f0f47191f345df57c1ba8c2723f3e8d117bbcc"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "IPCCDxe",
+      "bytes": 45056,
+      "sha256": "7759f9253e3c4c707af823d92c49cce4ad22fe19d4f68576501886090383506c"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "GlinkDxe",
+      "bytes": 61440,
+      "sha256": "efa585e9665e62a98620e85405d9017da42139fbbbf4c80cafcab2ddf2a45326"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "PlatformInfoDxeDriver",
+      "bytes": 32768,
+      "sha256": "84e31ee282a1b83318f39c4d59f655357b3e734e1713e9b4aad5b7a849561ff3"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "DALSys",
+      "bytes": 413696,
+      "sha256": "53108eb9914989ca83efb3b1b64c4073700dd8bf854f8ab263ce1cfafcc89c72"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "HALIOMMU",
+      "bytes": 147456,
+      "sha256": "0abbc8fd46b5cebae070346e88962da9665179f13c22fcf75268cd1b8a69b71e"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "HWIODxeDriver",
+      "bytes": 32768,
+      "sha256": "885961a0ccf74df0d4a0c73009e2391e1e673b228159333301048e26788d8ed8"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "I2C",
+      "bytes": 49152,
+      "sha256": "fe8b35e61dcdda9d6c3c3b7e200c6eebd79ce1dfda063e56d95f96ac91940fb1"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "DALTLMM",
+      "bytes": 49152,
+      "sha256": "9ad7c10169a60b7f700a0a0bb4e998c1db35f1bed53be5aaa8310fe4d371da24"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "PmicDxe",
+      "bytes": 229376,
+      "sha256": "a7de43862cd3ff45779fe4015c9f9e1656ba2cf621acccf7e7b0eb72fa8d42cb"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "DevicePathDxe",
+      "bytes": 77824,
+      "sha256": "e85cd0fe9ae186c28629290ba7f654057673cc1d9a4bbe21d3b6fe14b15f425c"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "DiskIoDxe",
+      "bytes": 45056,
+      "sha256": "87976cca85ab2a3434e0fd2cf0f10376e5924fd646c87e1f405af389af657091"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "PartitionDxe",
+      "bytes": 53248,
+      "sha256": "6a5d87914a2f6a19a36bc48af08ce96191e3c0b4c6cb682a91d62f28fd729299"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "Fat",
+      "bytes": 65536,
+      "sha256": "76ea64b6e4056246656ebec1a5b4f009509338b6931eca692fa63499ff37cfe3"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "EnglishDxe",
+      "bytes": 32768,
+      "sha256": "8d5ac08930f1b26502c9faa71b9f631b00bf0a4692566c39b72f79fa85eea429"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "FvSimpleFileSystem",
+      "bytes": 45056,
+      "sha256": "2b4e950521eb377dc8393644760ab0416b4c5c7e34e0953bbbf028f0cf5300b5"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UFSDxe",
+      "bytes": 151552,
+      "sha256": "5c564291299447e128f0a19455d5230cf42de8683d7c773e3a0eabbd625ee72e"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "CmdDbDxe",
+      "bytes": 32768,
+      "sha256": "101f2e2a49fee3c3849d34790476b9ecbaa9903b8815d14b92a8029aa9d23e91"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "PwrUtilsDxe",
+      "bytes": 32768,
+      "sha256": "4ff9378600c0d66486523ad26581cdab1d130472dcd49a5a8df754ff5b97bbe3"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "RpmhDxe",
+      "bytes": 65536,
+      "sha256": "da9c2ee4d71de1a946c9f2c6c042fb4f799f2154fc308ed08236012bc0aef7bd"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "NpaDxe",
+      "bytes": 77824,
+      "sha256": "a03cc34440ceb2dab523b91e1c8f87b11515eb5a5931025433d3465d3063a7e3"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ULogDxe",
+      "bytes": 77824,
+      "sha256": "18967e95c8b72598614754fdb30a21a340a9f312405a678c2c152183647e22b0"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "VcsDxe",
+      "bytes": 53248,
+      "sha256": "265140a79ad901a468c22a1f0b0fef63e0934a32d5c3ab7f0c239a3a0c5e5444"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ClockDxe",
+      "bytes": 204800,
+      "sha256": "a437b90968cd7a9576e8a090d015dd1a9f26cfe03eff06161b93c9d473be971d"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SPMI",
+      "bytes": 49152,
+      "sha256": "5ee46c29812bbb597bf88e07349e0ad74c6c0ba0f8f2397ea5d0921ec4d7709d"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ICBDxe",
+      "bytes": 53248,
+      "sha256": "98f94eb08b97b977126deb4f2047367597b3dea9f2a04e42acfc9d7cab096b17"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SmemDxe",
+      "bytes": 36864,
+      "sha256": "eb1e11bf43a9a6a4f7187a2ba5221a8de2503602f669bffa39faf6b301b74e9b"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "QcomBds",
+      "bytes": 118784,
+      "sha256": "0b06e7a8b482a5f9f0f8495c53e27c1b7a64040e5c2c833d9c16670354283968"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "RscDxe",
+      "bytes": 36864,
+      "sha256": "93ec592cb22886bc69df7fda686201818ba5e4ead06208494637710ededa461d"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "DDRInfoDxe",
+      "bytes": 45056,
+      "sha256": "e5d625de83e1d43a1d775216acda06216233e595c6ae6e2b50ea2ed3bd4ddc2a"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "BoardInfo",
+      "bytes": 65536,
+      "sha256": "ce38416e015485f824fb1ddc90ac9166038e7feaa6710d6f54fcbcdf3ee2bcc6"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SubPmic",
+      "bytes": 36864,
+      "sha256": "7b46c53f4c2fc2ad3738fe9e66f82e0fa4754688c323f2ebcd5fa46bc6f93bed"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "Ccic",
+      "bytes": 32768,
+      "sha256": "5196acf2fda04f80c31867b945c144daebddff144cdac7f74679f45ca157432a"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "Redriver",
+      "bytes": 32768,
+      "sha256": "2b28b1fc624913e5b958d33d4e92eae3f6495fb9084bceb0e2be1bcab9433688"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "Muic",
+      "bytes": 36864,
+      "sha256": "5ff8807eef58cc72cc9f12f11ba985f3a3273172d3d9a3545c045ce96d0cc2f0"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "Vib",
+      "bytes": 36864,
+      "sha256": "7d52722af7b9d555866e0f20e6f268334625a636abe0145f3b98609a2cee970c"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "Chg",
+      "bytes": 77824,
+      "sha256": "b50e46e20ac3d2e1e18b3701ebbd996ee4111f610dc03d3d65371eb5d8dbd48b"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SamsungQuestApp",
+      "bytes": 77824,
+      "sha256": "5d037235f53183ec7c2c8ea4ead6e9c71eaafb47d2b54415ac6ff2c5ec0d6263"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SamsungDdrApp",
+      "bytes": 81920,
+      "sha256": "1c1a9ab016416f7342bf15c1b5ffa02b59769180a9b73e7f77e817becab8c5dc"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SecEnvDxe",
+      "bytes": 61440,
+      "sha256": "48af4b551153c8fcef26b3f5b64744069febeb3d6ae58ec48a1a0f0a1a3fb4e3"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "Ebl",
+      "bytes": 131072,
+      "sha256": "a744283b33d3b762df022a6ee067f4b051079ddadb6289fdc5ef62e5ac1e5c8f"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "PrintDxe",
+      "bytes": 32768,
+      "sha256": "d16c9830af840497f01c44c8848875e7dc6d4eac6f66bf60c7492b828592e507"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ConPlatformDxe",
+      "bytes": 40960,
+      "sha256": "1adadb318d0b341fa45dbc2841ba0c8306f5d30cc86d6776cf58be19b25596ae"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ConSplitterDxe",
+      "bytes": 53248,
+      "sha256": "86529b02b3f5658cb27258e0ea50bde1c7f0b1c63fca12b5fe70d7b4b49215bc"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "GraphicsConsoleDxe",
+      "bytes": 49152,
+      "sha256": "dcca6bb7592bf4af637280a724d2650670b12ceb7c501c903488181b6ee41e9b"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "CPRDxe",
+      "bytes": 65536,
+      "sha256": "b6037dd54ca5c534762ad831e6c73a3999e6cd1a65e2bbb039f0dc7c63936636"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "GpiDxe",
+      "bytes": 81920,
+      "sha256": "d5f2f20135b4bde2a4b2131653803b8a993d143bbdf03cc691cef6275e116613"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SPI",
+      "bytes": 53248,
+      "sha256": "abd4eda77858c268e2fd4c14d4ebde4bc06575cab8a63a5e4f9051099af4a3ee"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SdccDxe",
+      "bytes": 122880,
+      "sha256": "d13f804064d518b4da60f650c033e7ef05288ea954490c4be81c7c99328764e5"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "FeatureEnablerDxe",
+      "bytes": 32768,
+      "sha256": "55d5ba6f74b03e17d34ca02e92de46080d527b21cdf84bf1935e099673ed60ea"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "DisplayDxe",
+      "bytes": 397312,
+      "sha256": "07331fd364e1ee70ad7b802f54d746e55c5a63f0a1a66c7f9c6819d75222b185"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "QRKSDxe",
+      "bytes": 32768,
+      "sha256": "b9a56d69a2368bdf9455e3d1fe7b836c5aa40904b9090169cb792cb01f607b12"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ButtonsDxe",
+      "bytes": 40960,
+      "sha256": "378ac7efec861f4d392e6f0e1a584a1bceeef594dc0259322764af2838f3c621"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UsbPwrCtrlDxe",
+      "bytes": 40960,
+      "sha256": "acd15f218eee4fa1b446b066f62c92c698dc45123ce61ac7318b768a7adfe501"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "TsensDxe",
+      "bytes": 32768,
+      "sha256": "23c8c3288390c018ebb7336dc152ee63f456d2be228d9685ddc7dada1ba77c2c"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "LimitsDxe",
+      "bytes": 73728,
+      "sha256": "d1652a7eab28e2c04b83101f648834fd891c10062707ba827271478c391b19c5"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UsbfnDwc3Dxe",
+      "bytes": 98304,
+      "sha256": "a81bd2d0875fcc2adc66491b9c7901bfb0102300f9f04b706a072784db28d419"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "XhciPciEmulation",
+      "bytes": 45056,
+      "sha256": "4cddcb1c395428f0ce1b5738041f22ae1a1f07d26b34b1c5d74410eb3663aee9"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "XhciDxe",
+      "bytes": 90112,
+      "sha256": "640bd9a5b3c2de7fc49bfeafd20ca28e8601b0958662893cf9fe5acca653ea22"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UsbBusDxe",
+      "bytes": 73728,
+      "sha256": "8262cd084776bdcdca7596de832c8e66c493dd6f5e4b5f8ada0f705c34c08860"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UsbKbDxe",
+      "bytes": 53248,
+      "sha256": "3790e786c82995898ce12339fd498f49ffa9650afaa07e78f0fa6f39248c22d7"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UsbMassStorageDxe",
+      "bytes": 49152,
+      "sha256": "be39080430b27993b668bd359ce1b9901e6b0058075a6b1171b871bda31864fb"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UsbMsdDxe",
+      "bytes": 61440,
+      "sha256": "7a8e1d7cc39fac9f582c42792c1c98b01dfd0e45b939e03df8ff2dda082e9a28"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UsbDeviceDxe",
+      "bytes": 53248,
+      "sha256": "6b7f32dab85c61a2f2da9c6a6d01564f401351b972f215a333cc1a644ecec0f4"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UsbConfigDxe",
+      "bytes": 90112,
+      "sha256": "4379dac836d52938f392ef3a6fe0fe29255db73176d47bcbcd59629d8a8b7710"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UsbInitDxe",
+      "bytes": 32768,
+      "sha256": "0ab5c9852da488483df07af8a1b2e492cf203323ba641514c680ef438d6a9537"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "UCDxe",
+      "bytes": 176128,
+      "sha256": "f600d21aee9b26b6911f166066a1a49a37974afd93a5a993116bdae7340c9e3b"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "RngDxe",
+      "bytes": 40960,
+      "sha256": "d02252fe6dfa37af22c9daffb988839308e5049acb0e47199796a3ce5beb6935"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "PILDxe",
+      "bytes": 118784,
+      "sha256": "fb024105a711a5e9716c7909db201c789ba9caaf35f2b46dde545ec4b3a27497"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "PILProxyDxe",
+      "bytes": 40960,
+      "sha256": "319cbbb964638829e60be267b974ad95987be470e6164bfb0fd8b6e1bdb57706"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SecRSADxe",
+      "bytes": 40960,
+      "sha256": "14478ba31f882f92808433f74035e879298a26ec8f62e1acd9b5594a1efd91dd"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "ASN1X509Dxe",
+      "bytes": 40960,
+      "sha256": "8520683356a558ec2ce481c64336ee72ace319a6cb0bfcf5bc666bd204db180a"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SPSSDxe",
+      "bytes": 45056,
+      "sha256": "85eb3c0dfda51c88f50fe254dd7a59688e80f777b34bfda1d84ca25b6a7f0334"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "FvDxe",
+      "bytes": 69632,
+      "sha256": "d929ea2c54d2b7579e4d3e5d2859aeb0737ecb66059755f0d7a47b2a42f989a5"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SamsungQuestApp",
+      "bytes": 77824,
+      "sha256": "5d037235f53183ec7c2c8ea4ead6e9c71eaafb47d2b54415ac6ff2c5ec0d6263"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "SamsungDdrApp",
+      "bytes": 81920,
+      "sha256": "1c1a9ab016416f7342bf15c1b5ffa02b59769180a9b73e7f77e817becab8c5dc"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "GuidedFv",
+      "bytes": 40960,
+      "sha256": "3e1147c3d1ef8add8ed09e48d4591c9cfa9831a278062cedbde013e3061ca024"
+    },
+    {
+      "firmware": "uefi.elf",
+      "module": "Ebl",
+      "bytes": 131072,
+      "sha256": "a744283b33d3b762df022a6ee067f4b051079ddadb6289fdc5ef62e5ac1e5c8f"
+    }
+  ]
+}

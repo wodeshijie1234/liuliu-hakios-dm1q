@@ -1,0 +1,111 @@
+{
+  "source": "Fully verified FZI1 stock base index0 plus overlay index6",
+  "tree_sha256": "d7daddc3aab38776fdb1350cb000f127d83a9547e2fe31cd10b89d2a74c54a29",
+  "runtime_fixups_included": false,
+  "hardware_execution_validated": false,
+  "cpu": [
+    {
+      "path": "/cpus/cpu@0",
+      "mpidr": "0x0",
+      "capacity": 820,
+      "enable_method": "psci"
+    },
+    {
+      "path": "/cpus/cpu@100",
+      "mpidr": "0x100",
+      "capacity": 820,
+      "enable_method": "psci"
+    },
+    {
+      "path": "/cpus/cpu@200",
+      "mpidr": "0x200",
+      "capacity": 820,
+      "enable_method": "psci"
+    },
+    {
+      "path": "/cpus/cpu@300",
+      "mpidr": "0x300",
+      "capacity": 1800,
+      "enable_method": "psci"
+    },
+    {
+      "path": "/cpus/cpu@400",
+      "mpidr": "0x400",
+      "capacity": 1800,
+      "enable_method": "psci"
+    },
+    {
+      "path": "/cpus/cpu@500",
+      "mpidr": "0x500",
+      "capacity": 1800,
+      "enable_method": "psci"
+    },
+    {
+      "path": "/cpus/cpu@600",
+      "mpidr": "0x600",
+      "capacity": 1800,
+      "enable_method": "psci"
+    },
+    {
+      "path": "/cpus/cpu@700",
+      "mpidr": "0x700",
+      "capacity": 1894,
+      "enable_method": "psci"
+    }
+  ],
+  "tool_missing_but_present_reservations": [
+    {
+      "path": "/reserved-memory/aop_cmd_db_region@81c60000",
+      "reg_cells": [
+        "0x0",
+        "0x81c60000",
+        "0x0",
+        "0x20000"
+      ],
+      "base_from_reg": "0x81c60000",
+      "scope": "static reservation only; not an enabled boot argument"
+    },
+    {
+      "path": "/reserved-memory/mpss_region@89800000",
+      "reg_cells": [
+        "0x0",
+        "0x8a800000",
+        "0x0",
+        "0x10800000"
+      ],
+      "base_from_reg": "0x8a800000",
+      "scope": "static reservation only; not an enabled boot argument"
+    },
+    {
+      "path": "/reserved-memory/ipa_gsi_region@9b090000",
+      "reg_cells": [
+        "0x0",
+        "0x9b090000",
+        "0x0",
+        "0xa000"
+      ],
+      "base_from_reg": "0x9b090000",
+      "scope": "static reservation only; not an enabled boot argument"
+    }
+  ],
+  "soc_pas_mpss": "unknown; no matching qcom,mss PAS property located",
+  "ipa_tool_assumption": {
+    "path": "/soc/qcom,ipa@3e00000",
+    "reg_cells": [
+      "0x3e00000",
+      "0x84000",
+      "0x3e04000",
+      "0xfc000"
+    ],
+    "reg_names": [
+      "ipa-base",
+      "gsi-base"
+    ],
+    "qcom_ipa_cfg_offset": "0x140000",
+    "qcom_ipa_hw_ver_raw": "0x18",
+    "upstream_hardcoded_cfg_offset": "0x40000",
+    "upstream_generated_soc_ipa_base": "0x3e40000",
+    "unvalidated_base_plus_dt_cfg_offset": "0x3f40000",
+    "caution": "Neither address validated in HakiOS on dm1q; no IPA boot argument enabled. Hardware-version enum not decoded."
+  }
+}

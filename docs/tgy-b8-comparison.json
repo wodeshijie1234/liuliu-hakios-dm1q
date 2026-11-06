@@ -1,0 +1,178 @@
+{
+  "region": "TGY",
+  "firmware": "S9110ZHS8FZI1",
+  "bl_verification": {
+    "version": "S9110ZHS8FZI1/S9110OZS8FZI1/S9110ZCS8FZI1/S9110ZHS8FZI1",
+    "member_name": "BL_S9110ZHS8FZI1_S9110ZHS8FZI1_MQB114843594_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "downloaded_compressed_bytes": 102259331,
+    "tar_bytes": 122931313,
+    "zip_crc32_verified": true,
+    "appended_md5_verified": true,
+    "sha256": "d609983bcf0d8d846affa2433727133a475c45e58de8de0d9cf6d2dded71a457",
+    "members": [
+      {
+        "name": "abl.elf.lz4",
+        "bytes": 827165
+      },
+      {
+        "name": "bksecapp.mbn.lz4",
+        "bytes": 26237
+      },
+      {
+        "name": "xbl_s.melf.lz4",
+        "bytes": 772852
+      },
+      {
+        "name": "xbl_config.elf.lz4",
+        "bytes": 71991
+      },
+      {
+        "name": "tz_iccc.mbn.lz4",
+        "bytes": 41842
+      },
+      {
+        "name": "tz.mbn.lz4",
+        "bytes": 1964175
+      },
+      {
+        "name": "hypvm.mbn.lz4",
+        "bytes": 797824
+      },
+      {
+        "name": "devcfg.mbn.lz4",
+        "bytes": 183562
+      },
+      {
+        "name": "aop.mbn.lz4",
+        "bytes": 149531
+      },
+      {
+        "name": "aop_devcfg.mbn.lz4",
+        "bytes": 5770
+      },
+      {
+        "name": "keymint.mbn.lz4",
+        "bytes": 233200
+      },
+      {
+        "name": "qupv3fw.elf.lz4",
+        "bytes": 22562
+      },
+      {
+        "name": "storsec.mbn.lz4",
+        "bytes": 10106
+      },
+      {
+        "name": "NON-HLOS.bin.lz4",
+        "bytes": 69036107
+      },
+      {
+        "name": "dspso.bin.lz4",
+        "bytes": 39076422
+      },
+      {
+        "name": "imagefv.elf.lz4",
+        "bytes": 3297850
+      },
+      {
+        "name": "uefi.elf.lz4",
+        "bytes": 2731678
+      },
+      {
+        "name": "uefi_sec.mbn.lz4",
+        "bytes": 79051
+      },
+      {
+        "name": "shrm.elf.lz4",
+        "bytes": 27745
+      },
+      {
+        "name": "cpucp.elf.lz4",
+        "bytes": 77315
+      },
+      {
+        "name": "XblRamdump.elf.lz4",
+        "bytes": 945367
+      },
+      {
+        "name": "sec.elf.lz4",
+        "bytes": 2403
+      },
+      {
+        "name": "apdp.mbn.lz4",
+        "bytes": 2553
+      },
+      {
+        "name": "vbmeta.img.lz4",
+        "bytes": 3974
+      },
+      {
+        "name": "quest.fv.lz4",
+        "bytes": 2737
+      },
+      {
+        "name": "testvector.fv.lz4",
+        "bytes": 33433
+      },
+      {
+        "name": "QcomCate.fv.lz4",
+        "bytes": 2483
+      },
+      {
+        "name": "Core_NON-HLOS.bin.lz4",
+        "bytes": 59729
+      },
+      {
+        "name": "tz_hdm.mbn.lz4",
+        "bytes": 857518
+      },
+      {
+        "name": "tz_kg.mbn.lz4",
+        "bytes": 893242
+      },
+      {
+        "name": "vaultkeeper.mbn.lz4",
+        "bytes": 659091
+      }
+    ],
+    "flashed": false
+  },
+  "linuxloader_sha256": "ad5e3170d772e8a26d241feb9d36b4ef34bb2dea059ec618cd94bcdfdd639585",
+  "same_gate_address": "0xcac60",
+  "same_zero_return_pattern": true,
+  "other_locked_literal_present": true,
+  "instructions": [
+    "0xcac60: sub sp, sp, #0x20",
+    "0xcac64: stp x30, x19, [sp, #0x10]",
+    "0xcac68: adrp x8, #0x142000",
+    "0xcac6c: ldr x8, [x8, #8]",
+    "0xcac70: str x8, [sp, #8]",
+    "0xcac74: bl #0xc2500",
+    "0xcac78: mov x19, x0",
+    "0xcac7c: bl #0x1c20",
+    "0xcac80: tst w0, #0xff",
+    "0xcac84: b.eq #0xcacac",
+    "0xcac88: mov w0, #0x40",
+    "0xcac8c: bl #0x1c48",
+    "0xcac90: tst w0, #0xff",
+    "0xcac94: b.eq #0xcacac",
+    "0xcac98: ldr w2, [x19, #0xf0]",
+    "0xcac9c: adrp x1, #0x10c000",
+    "0xcaca0: add x1, x1, #0xdfb",
+    "0xcaca4: mov w0, #0x40",
+    "0xcaca8: bl #0x162c",
+    "0xcacac: adrp x9, #0x142000",
+    "0xcacb0: ldr x8, [sp, #8]",
+    "0xcacb4: ldr x9, [x9, #8]",
+    "0xcacb8: cmp x9, x8",
+    "0xcacbc: b.ne #0xcacd0",
+    "0xcacc0: ldp x30, x19, [sp, #0x10]",
+    "0xcacc4: mov w0, wzr",
+    "0xcacc8: add sp, sp, #0x20",
+    "0xcaccc: ret ",
+    "0xcacd0: bl #0x1488",
+    "0xcacd4: udf #0"
+  ],
+  "flashed": false,
+  "limitation": "Static comparison only, no cross-region flashing or boot test"
+}

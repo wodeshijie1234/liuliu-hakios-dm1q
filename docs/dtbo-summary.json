@@ -1,0 +1,111 @@
+{
+  "status": "Rechecked against full AP with ZIP CRC and appended MD5 verified; exact DTBO hash matched provisional extraction",
+  "selected_index_from_live_android": 6,
+  "entries": [
+    {
+      "index": 0,
+      "bytes": 1016388,
+      "id": "0x0",
+      "rev": "0x0",
+      "custom": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "model": "Samsung DM1Q PROJECT (board-id,01)",
+      "compatible": "qcom,kalama-mtp|qcom,kalama|qcom,mtp|",
+      "sha256": "e77e810ea45aeafe26107458b5c7886640f3639c66cefdd508d658b2a4b1e38e"
+    },
+    {
+      "index": 1,
+      "bytes": 1016472,
+      "id": "0x0",
+      "rev": "0x0",
+      "custom": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "model": "Samsung DM1Q PROJECT (board-id,02)",
+      "compatible": "qcom,kalama-mtp|qcom,kalama|qcom,mtp|",
+      "sha256": "6c6d6e19f2fbd7e0207e978785d8cb57f24508ca12229d6abf97dfabfbb212fc"
+    },
+    {
+      "index": 2,
+      "bytes": 1016512,
+      "id": "0x0",
+      "rev": "0x0",
+      "custom": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "model": "Samsung DM1Q PROJECT (board-id,03)",
+      "compatible": "qcom,kalama-mtp|qcom,kalama|qcom,mtp|",
+      "sha256": "ccfe0dd31b7f31ca292a09498ccddba3ad3b21f51e7c1fdc857a58ba4b08c71a"
+    },
+    {
+      "index": 3,
+      "bytes": 1016512,
+      "id": "0x0",
+      "rev": "0x0",
+      "custom": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "model": "Samsung DM1Q PROJECT (board-id,03)",
+      "compatible": "qcom,kalama-mtp|qcom,kalama|qcom,mtp|",
+      "sha256": "dd8d9f564c9f751b29e7bd6ee2275a696e68f84412167a513c923468d4924f1b"
+    },
+    {
+      "index": 4,
+      "bytes": 1016592,
+      "id": "0x0",
+      "rev": "0x0",
+      "custom": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "model": "Samsung DM1Q PROJECT (board-id,05)",
+      "compatible": "qcom,kalama-mtp|qcom,kalama|qcom,mtp|",
+      "sha256": "4391b95c19ff1e6a891f16284d7bd134f408ccab8db3b3fc6be8a43eb5459d31"
+    },
+    {
+      "index": 5,
+      "bytes": 1018209,
+      "id": "0x0",
+      "rev": "0x0",
+      "custom": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "model": "Samsung DM1Q PROJECT (board-id,08)",
+      "compatible": "qcom,kalama-mtp|qcom,kalama|qcom,mtp|",
+      "sha256": "503ee5b2859f008bf8b5b24b66971ba5ba93b846970eded92e62afe457ac726f"
+    },
+    {
+      "index": 6,
+      "bytes": 1018457,
+      "id": "0x0",
+      "rev": "0x0",
+      "custom": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "model": "Samsung DM1Q PROJECT (board-id,11)",
+      "compatible": "qcom,kalama-mtp|qcom,kalama|qcom,mtp|",
+      "sha256": "4726b3e1d7dfc641f9a75afdf8371665c73977d5679a8fef755546326f755d16"
+    }
+  ]
+}

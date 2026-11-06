@@ -1,0 +1,15 @@
+{
+  "ready": false,
+  "blockers": [
+    "RECOVERY_INCOMPLETE",
+    "RECOVERY_MODEL_UNVERIFIED",
+    "ROLLBACK_UNVERIFIED",
+    "RECOVERY_SOURCE_UNVERIFIED",
+    "RECOVERY_FILE_UNVERIFIED_BL",
+    "RECOVERY_FILE_UNVERIFIED_AP",
+    "RECOVERY_FILE_UNVERIFIED_CP",
+    "RECOVERY_FILE_UNVERIFIED_CSC",
+    "DM1Q_BOOT_CHAIN_NOT_VALIDATED"
+  ],
+  "scope": "Offline preparation only; no flash command exists in the preflight tool."
+}
